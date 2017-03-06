@@ -1,0 +1,41 @@
+
+<% provide(:title, 'Ruby on rails tutorial') %>
+        
+<% if user_signed_in? %>
+  <div class="row">
+    <aside class="col-md-4">
+      <section class="user_info">
+        <%= render 'shared/user_info' %>
+      </section>
+      <section class="stats">
+        <%= render 'shared/stats' %>
+      </section>
+
+      <section class="micropost_form">
+<%= render 'shared/micropost_form'  %>
+      </section>
+    </aside>
+    <div class="col-md-8">
+      <h3>Micropost Feed</h3>
+<%= render 'shared/feed', :locals => { :feed_items => @feed_items }  %>
+    </div>
+  </div>
+
+<% else %>
+
+ <div class="jumbotron">
+    
+      <h1 class="display-3">Welcome to the Sample App</h1>
+        <h5>
+        This is the home page for the 
+          <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application.
+        </h5>
+        <%= link_to 'Sign Up Now!', new_user_registration_path, :class => "btn btn-lg btn-primary" %>  
+    
+</div>
+    <a href="http://rubyonrails.org">
+    <%= image_tag("ror.png", :alt => "rails logo", :class => "image") %>
+    </a> 
+
+<% end %>

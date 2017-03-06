@@ -1,0 +1,14 @@
+
+<% provide(:title, 'All users | Ruby on rails') %>
+
+<h2>All users</h2>
+<%= will_paginate @users %>
+	<ul class="users">
+	
+	  <% @users.each do |user| %>
+	    <%= render user %>
+			
+	  <% end %>
+	</ul>
+<%= will_paginate %>
+<h4>Total number of users:<%= @users.count %></h4>

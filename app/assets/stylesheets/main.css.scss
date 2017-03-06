@@ -1,0 +1,317 @@
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.jumbotron > h1 {
+    margin-botton: 60px !important;
+}
+h2 {
+    font-size: 3em;
+    letter-spacing: -2px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 1000px;
+    height: 42px;
+    
+}
+.btn-lg {
+    padding: 10px 16px !important;
+    font-size: 18px !important;
+    line-height: 1.33 !important;
+    border-radius: 6px !important;
+    height: 45px !important;
+    width: 138px !important;
+}
+.btn-primary {
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    border-radius: 4px;
+    height: 34px;
+    width: 555px;
+    user-select: none;
+}
+.image {
+    height: 111px;
+    width: 87px;
+}
+.form-control {
+    height: 34px;
+    width: 555px;
+}
+input {
+    margin-bottom: 15px;
+}
+p {
+    margin: 0 0 10px;
+}
+.jumbotron {
+    width: 1140px;
+    height: 312px;
+    text-align: center;
+    padding: 48px 60px 48px 60px;
+}
+#error_explanation h2 {
+    text-align: left;
+    font-weight: 300;
+    padding: 10px 10px 25px 10px;
+    font-size: 18px;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+    width: 560px;
+    height: 20px;
+    font-family: "Lucida Console", Courier, monospace;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+#error_explanation ul li {
+    padding: 1px;
+    margin-bottom: 0px;
+    color: red;
+}
+.alert-danger {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.detail_error li {
+    color: red;
+    padding: 0px 2px 4px 2px;
+    margin: 2px 2px 2px 2px;
+}
+.debug_dump {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 45px;
+}
+.gravatar_edit {
+    float: left;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+.users {
+    list-style: none;
+    margin: 0;
+    overflow: auto;
+    white-space: pre;
+    
+
+    li {
+        margin-right: 15px;
+        float: left;
+        display: inline-flex;
+    }
+    .user_name{
+    padding:5px;
+    font-size:18px;
+    
+    height:27px;
+    }
+    .user_name_link{
+    padding:5px;
+    font-size:18px;
+    border-left: 1px solid #999;
+    }
+}
+.col-md-8 {
+    width: 66.66666667%;
+    padding: 0 0 0 70px;
+}
+.microposts {
+    list-style: none;
+    padding: 0;
+    li {
+        padding: 10px 0px 30px 2px;
+        border-top: 1px solid #ebccd1;
+    }
+    .user {
+        margin-top: 5em;
+        padding-top: 0;
+    }
+    .content {
+        display: block;
+        margin-left: 60px;
+        img {
+            display: block;
+            padding: 5px 0;
+        }
+    }
+    .timestamp {
+        color: gray;
+        display: block;
+        margin-left: 90px;
+    }
+    .gravatar {
+        float: left;
+        margin-right: 10px;
+        margin-top: 0px;
+    }
+}
+aside {
+    textarea {
+        height: 100px;
+        margin: 20px 0px 12px 0px;
+    }
+}
+span.picture {
+    margin-top: 10px;
+    input {
+        border: 0;
+    }
+}
+.alert-danger {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+.alert-danger {
+    background-color: #f2dede;
+    border-color: rosybrown;
+    color: #a94442;
+    margin: 20px 0px 0px 0px;
+}
+.alert {
+    padding: 5px 5px 5px 5px;
+    border: 1px solid transparent;
+    border-radius: 2px;
+}
+.micropost_field_content {
+    width: 270px;
+    height: 160px;
+    resize: none;
+}
+.micropost_btn {
+    width: 270px !important;
+    height: 40px !important;
+}
+.user_info_profile {
+    margin-top: 20px;
+    background-color: white;
+    width: 255px;
+    height: 108px;
+    display: inline-block;
+    p {
+        color: black;
+        padding-top: 10px;
+        font-size: 25px;
+    }
+    span {
+        color:#428bca;
+    font-family: -webkit-pictograph;
+        font-size: 16px;
+    }
+}
+.user_info_profile img {
+    float: left;
+    padding: 10px 10px 10px 0px;
+}
+.micropost_user_info {
+    margin-top: 20px;
+    background-color: white;
+    width: 255px;
+    height: 108px;
+    display: inline-block;
+}
+.micropost_user_info p {
+    padding: 5px 5px 5px 5px;
+    color: black;
+    font-size: 18px;
+    line-height: 29px;
+    word-spacing: normal;
+    span{
+    padding-top:5px;
+    }
+}
+.micropost_user_info img {
+    float: left;
+    padding: 10px 10px 10px 0px;
+}
+.stats {
+    overflow: auto;
+    margin-top: 0;
+    padding: 0;
+    a {
+        float: left;
+        padding: 0 10px;
+        border-left: 1px solid gray;
+        color: gray;
+        &:first-child {
+            padding-left: 0;
+            border: 0;
+        }
+        &:hover {
+            text-decoration: none;
+            color: blue;
+        }
+    }
+    strong {
+        display: block;
+    }
+}
+.user_avatars {
+    overflow: auto;
+    margin-top: 10px;
+    .gravatar {
+        margin: 2px 1.5px;
+        width: 50px;
+    }
+    a {
+        padding: 0;
+    
+    }
+}
+.users_follow {
+    list-style: none;
+    padding: 0;
+    li {
+        padding: 17px;
+    }
+    .gravatar {
+        float: left;
+        margin-right: 10px;
+        margin-top: 0px;
+    }
+}
+.users_follow.follow {
+    
+    li{
+    font-size:16px;
+    }
+    li a {
+        font-size: 25px;
+    }
+}
+.heading {
+    font-size: 25px;
+}
+footer {
+    margin-top: 45px;
+    padding-top: 5px;
+    border-top: 1px solid #eaeaea;
+    color: #777777;
+}
+footer a {
+    color: #555555;
+}
+footer a:hover {
+    color: #222222;
+}
+footer small {
+    float: left;
+}
+footer ul {
+    float: right;
+    list-style: none;
+}
+footer ul li {
+    float: left;
+    margin-left: 15px;
+}
